@@ -38,7 +38,6 @@ RAM4=`free -h | grep 'Swap' | awk '{print $3}'`   # Swap used
  
 # IP-Adressen ermitteln
 if ( /sbin/ifconfig | grep -q "eth0" ) ; then IP_LAN=`ip addr show | grep "eth0" | cut -d ":" -f 2 | cut -d "b" -f 1 | grep "inet" | cut -d "t" -f 2` ; else IP_LAN="---" ; fi ;
-if ( /sbin/ifconfig | grep -q "wlan0" ) ; then IP_WLAN=`ip addr show | grep "wlan0" | cut -d ":" -f 2 | cut -d "b" -f 1 | grep "wlan" | cut -d "t" -f 2` ; else IP_WLAN="---" ; fi ;
  
 echo "
 \033[1;36m        .        \033[1;36m$DATUM
