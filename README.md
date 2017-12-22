@@ -1,7 +1,7 @@
 ![archmotd picture](https://github.com/desworks/dynmotd/raw/master/archmotd.jpg)
 
 # dynmotd
-script to generate a dynamic motd, with arch logo
+script to generate a dynamic motd with fancy arch logo
 
 ### don't forget to:
 * edit your targeted partiton at line 29-31
