@@ -47,5 +47,5 @@ echo "
 \033[1;36m    /##P^q##\    \033[0;37mØ Auslastung..: $LOAD1 (1 Min.) | $LOAD2 (5 Min.) | $LOAD3 (15 Min.)
 \033[1;36m   /##(   )##\   \033[0;37mSpeicher......: Gesamt: $DISK1 | Belegt: $DISK2 | Frei: $DISK3
 \033[1;36m  /###P   q#,^\  \033[0;37mRAM (MB)......: Gesamt: $RAM1 | Belegt: $RAM2 | Frei: $RAM3 | Swap: $RAM4
-\033[1;36m /P^         ^q\ \033[0;37mIP-Adressen...: LAN:\033[1;35m$IP_LAN\033[0;37m
+\033[1;36m /P^         ^q\ \033[0;37mIP-Adressen...: eth0:\033[1;35m$IP_LAN\033[0;37m
 "
